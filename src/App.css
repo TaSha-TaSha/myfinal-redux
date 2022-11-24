@@ -873,3 +873,34 @@ body {
   }
   }
 
+  @media all and (max-width: 390px) {
+    .navbarList {
+      max-width: 87%;
+    }
+    
+    a, li {
+      font-size: 12px;
+    }
+  
+    .woman {
+      width: 100%;
+    }
+    
+    .title {
+      font-size: 25px;
+    }
+    
+    .par {
+      font-size: 10px;
+    }
+
+  .cartInsideQuantity {
+    right: -75px;
+    font-size: 25px;
+  }
+  
+  .cartIconImage {
+    right: -75px;
+    height: 35px;
+  }
+  }
